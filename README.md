@@ -7,4 +7,4 @@ This repository hosts the official Privacy Policy and legal compliance documenta
 - **Markdown Document:** [privacy_policy.md](privacy_policy.md)
 
 ---
-*For support or privacy inquiries, contact `[YOUR_EMAIL_ADDRESS]`.*
+*For support or privacy inquiries, contact `threader.support@gmail.com`.*

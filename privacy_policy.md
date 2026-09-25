@@ -67,7 +67,7 @@ ThreadReader requests only the minimal permissions required for media playback f
 - **User Data Deletion:** Because all data is stored on-device, you maintain total control over your data:
   1. **Instant In-App / System Purge:** You can delete all cached data, voice models, and preferences instantly by navigating to your Android device's **Settings $\to$ Apps $\to$ ThreadReader $\to$ Storage $\to$ Clear Data**.
   2. **Uninstallation:** Completely uninstalling the app permanently purges all associated local files and settings.
-  3. **Data Inquiries:** To request assistance or verify data handling, contact us at `[YOUR_EMAIL_ADDRESS]`.
+  3. **Data Inquiries:** To request assistance or verify data handling, contact us at `threader.support@gmail.com`.
 
 ---
 
@@ -88,7 +88,7 @@ Under the California Consumer Privacy Act as amended by the CPRA:
 
 ## 7. Children's Privacy (COPPA Compliance)
 
-ThreadReader is not directed toward children under the age of 13. The application does not knowingly collect, solicit, or maintain personal information from children under 13. Because the application ingests public internet discussion content, the application is rated for users aged 13 and older. If you believe a child under 13 has provided personal information to us, please contact us immediately at `[YOUR_EMAIL_ADDRESS]`, and we will take immediate steps to address the matter.
+ThreadReader is not directed toward children under the age of 13. The application does not knowingly collect, solicit, or maintain personal information from children under 13. Because the application ingests public internet discussion content, the application is rated for users aged 13 and older. If you believe a child under 13 has provided personal information to us, please contact us immediately at `threader.support@gmail.com`, and we will take immediate steps to address the matter.
 
 ---
 
@@ -109,5 +109,5 @@ We may update this Privacy Policy from time to time. Any changes will be posted 
 If you have questions, feedback, or data privacy requests concerning this Privacy Policy, please contact:
 
 - **Developer:** Redder Developer / ThreadReader Team  
-- **Email:** `[YOUR_EMAIL_ADDRESS]`  
+- **Email:** `threader.support@gmail.com`  
 - **Issue Tracker:** Via our public repository or the Google Play developer contact page.
