@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Privacy Policy - ThreadReader</title>
+  <style>
+    :root {
+      --bg: #ffffff;
+      --text: #1a1a1a;
+      --text-muted: #555555;
+      --card-bg: #f8f9fa;
+      --border: #e2e8f0;
+      --primary: #d9381e;
+      --primary-hover: #b82b13;
+      --accent: #2563eb;
+      --code-bg: #f1f5f9;
+      --table-header: #f1f5f9;
+    }
+    @media (prefers-color-scheme: dark) {
+      :root {
+        --bg: #0f172a;
+        --text: #f1f5f9;
+        --text-muted: #94a3b8;
+        --card-bg: #1e293b;
+        --border: #334155;
+        --primary: #ff5733;
+        --primary-hover: #ff7252;
+        --accent: #60a5fa;
+        --code-bg: #1e293b;
+        --table-header: #334155;
+      }
+    }
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+      line-height: 1.65;
+      color: var(--text);
+      background-color: var(--bg);
+      padding: 2rem 1rem;
+    }
+    .container {
+      max-width: 840px;
+      margin: 0 auto;
+    }
+    header {
+      margin-bottom: 2.5rem;
+      padding-bottom: 1.5rem;
+      border-bottom: 2px solid var(--border);
+    }
+    h1 {
+      font-size: 2.25rem;
+      font-weight: 800;
+      color: var(--primary);
+      margin-bottom: 0.5rem;
+      letter-spacing: -0.025em;
+    }
+    .meta {
+      color: var(--text-muted);
+      font-size: 0.95rem;
+      display: flex;
+      flex-wrap: wrap;
+      gap: 1.25rem;
+    }
+    .meta span {
+      display: inline-flex;
+      align-items: center;
+    }
+    h2 {
+      font-size: 1.45rem;
+      font-weight: 700;
+      margin-top: 2rem;
+      margin-bottom: 0.85rem;
+      color: var(--text);
+      border-bottom: 1px solid var(--border);
+      padding-bottom: 0.35rem;
+    }
+    h3 {
+      font-size: 1.15rem;
+      font-weight: 600;
+      margin-top: 1.25rem;
+      margin-bottom: 0.5rem;
+    }
+    p, li {
+      margin-bottom: 0.85rem;
+      color: var(--text);
+    }
+    ul, ol {
+      padding-left: 1.5rem;
+      margin-bottom: 1rem;
+    }
+    li {
+      margin-bottom: 0.35rem;
+    }
+    strong {
+      color: var(--text);
+    }
+    a {
+      color: var(--accent);
+      text-decoration: none;
+    }
+    a:hover {
+      text-decoration: underline;
+    }
+    code {
+      font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
+      font-size: 0.88em;
+      background-color: var(--code-bg);
+      padding: 0.15rem 0.4rem;
+      border-radius: 4px;
+      border: 1px solid var(--border);
+    }
+    .badge {
+      display: inline-block;
+      padding: 0.2rem 0.6rem;
+      font-size: 0.8rem;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
+      border-radius: 9999px;
+      background-color: var(--card-bg);
+      border: 1px solid var(--border);
+      color: var(--primary);
+    }
+    .callout {
+      background-color: var(--card-bg);
+      border-left: 4px solid var(--primary);
+      padding: 1rem 1.25rem;
+      border-radius: 0 8px 8px 0;
+      margin: 1.5rem 0;
+    }
+    .callout p:last-child {
+      margin-bottom: 0;
+    }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin: 1.25rem 0;
+      font-size: 0.95rem;
+    }
+    th, td {
+      border: 1px solid var(--border);
+      padding: 0.75rem 1rem;
+      text-align: left;
+    }
+    th {
+      background-color: var(--table-header);
+      font-weight: 600;
+    }
+    footer {
+      margin-top: 3.5rem;
+      padding-top: 1.5rem;
+      border-top: 1px solid var(--border);
+      font-size: 0.9rem;
+      color: var(--text-muted);
+      text-align: center;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <header>
+      <div class="badge">Official Policy</div>
+      <h1>Privacy Policy for ThreadReader</h1>
+      <div class="meta">
+        <span><strong>Effective Date:</strong>&nbsp;September 25, 2026</span>
+        <span><strong>Application ID:</strong>&nbsp;<code>com.redder</code></span>
+        <span><strong>Platform:</strong>&nbsp;Android</span>
+      </div>
+    </header>
+
+    <div class="callout">
+      <p><strong>Radical Privacy Guarantee:</strong> ThreadReader operates on a 100% on-device neural synthesis architecture. Your reading discussions, audio, and speech tokens are never uploaded to remote AI servers. We do not operate user accounts, do not require Reddit login, and store zero personal data on cloud databases.</p>
+    </div>
+
+    <h2>1. Introduction</h2>
+    <p>ThreadReader ("we", "our", or "the application") respects and protects your privacy. This Privacy Policy details how ThreadReader handles information when you use our Android application.</p>
+
+    <h2>2. Core Architectural Privacy Guarantees</h2>
+    <h3>2.1 100% On-Device Neural Speech Synthesis (Zero Cloud AI)</h3>
+    <ul>
+      <li><strong>Local Neural Execution:</strong> All text-to-speech synthesis (utilizing Piper ONNX and local neural models) is executed purely on your Android device using local compute hardware.</li>
+      <li><strong>No Remote AI Transmission:</strong> Thread content, text discussions, voice configurations, speech tokens, and generated audio streams are <strong>never</strong> transmitted to remote third-party AI or cloud speech providers (such as OpenAI, ElevenLabs, Google Cloud Text-to-Speech, or Microsoft Azure).</li>
+      <li><strong>No Microphone Access:</strong> The application does <strong>not</strong> declare or request the <code>RECORD_AUDIO</code> permission. ThreadReader is strictly an audio player and synthesizer; it does not capture or listen to microphone audio.</li>
+    </ul>
+
+    <h3>2.2 Public Forum Ingestion &amp; Decentralized Mirrors</h3>
+    <ul>
+      <li><strong>Public Forum Threads:</strong> ThreadReader retrieves public discussion content from Reddit or decentralized community mirrors (such as Redlib instances) based strictly on links you provide manually or share via Android sharing intents.</li>
+      <li><strong>Zero Account Harvesting:</strong> ThreadReader does not require or offer user account registration. You do not log in with Reddit, provide credentials, or generate user accounts. We do not harvest, store, or transmit usernames, passwords, or personal profiles.</li>
+      <li><strong>Network Boundaries &amp; Security:</strong> All network requests enforce strict TLS 1.3 / HTTPS encryption. Cleartext HTTP is prohibited. The app includes active Server-Side Request Forgery (SSRF) and intranet filters that automatically block access to private local network ranges (RFC 1918) and cloud metadata endpoints.</li>
+    </ul>
+
+    <h2>3. Data Collection, Monetization &amp; Advertising</h2>
+    <h3>3.1 Free Tier (Ad-Supported)</h3>
+    <ul>
+      <li><strong>Google AdMob:</strong> The free version of ThreadReader displays banner and interstitial advertisements served by Google AdMob (Google LLC).</li>
+      <li><strong>Identifiers Collected:</strong> The Google Mobile Ads SDK may collect and process device identifiers, specifically the <strong>Android Advertising ID (AAID)</strong>, IP addresses, and diagnostic crash/performance metrics for ad delivery, personalization (where consented), frequency capping, and fraud prevention in accordance with <a href="https://policies.google.com/privacy" target="_blank" rel="noopener">Google's Privacy Policy</a>.</li>
+      <li><strong>Consent Management:</strong> In regions requiring consent (such as the European Economic Area and the UK), ThreadReader integrates Google's User Messaging Platform (UMP) SDK to collect and respect user consent choices for personalized versus non-personalized ads before ad requests are initialized.</li>
+    </ul>
+
+    <h3>3.2 Pro Tier (Ad-Free Suppression Guarantee)</h3>
+    <ul>
+      <li><strong>Complete Ad Component Deactivation:</strong> If you purchase the optional lifetime "Remove Ads" / Pro in-app purchase (<code>threadreader_remove_ads</code>), all advertising components within the app are permanently disabled.</li>
+      <li><strong>Zero Advertising Telemetry for Pro Users:</strong> When Pro status is active, ad loading routines are halted, banner views are unmounted, and advertising identifiers are never requested, collected, or shared with Google AdMob.</li>
+    </ul>
+
+    <h3>3.3 Payment Processing</h3>
+    <ul>
+      <li><strong>Google Play Billing:</strong> All in-app purchases are handled entirely by Google Play Billing through secure operating system IPC (<code>BillingClient</code>).</li>
+      <li><strong>No Financial Data Handled:</strong> ThreadReader never collects, processes, or stores credit card numbers, bank account numbers, or billing addresses. Your payment information is governed by the <a href="https://play.google.com/intl/en_us/about/play-terms/" target="_blank" rel="noopener">Google Play Terms of Service</a>.</li>
+    </ul>
+
+    <h2>4. Android Device Permissions &amp; Usage</h2>
+    <table>
+      <thead>
+        <tr>
+          <th>Permission</th>
+          <th>Purpose</th>
+          <th>User Control</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td><code>INTERNET</code></td>
+          <td>Retrieve public discussion content and serve ads (free tier only).</td>
+          <td>Granted automatically by Android upon installation.</td>
+        </tr>
+        <tr>
+          <td><code>FOREGROUND_SERVICE</code> &amp; <code>MEDIA_PLAYBACK</code></td>
+          <td>Enable background audio playback and maintain MediaSession integration.</td>
+          <td>Active only while audio playback is in progress.</td>
+        </tr>
+        <tr>
+          <td><code>POST_NOTIFICATIONS</code></td>
+          <td>Display standard media playback controls (Play, Pause, Skip) in the notification shade.</td>
+          <td>Can be permitted or silenced at any time in system settings.</td>
+        </tr>
+        <tr>
+          <td><code>SYSTEM_ALERT_WINDOW</code> <em>(Optional)</em></td>
+          <td>Render the floating Head-Up Display (HUD) overlay over other apps.</td>
+          <td><strong>Optional:</strong> Explicitly requested only if you toggle the floating HUD feature. Can be revoked at any time.</td>
+        </tr>
+      </tbody>
+    </table>
+
+    <h2>5. Data Storage, Retention &amp; Deletion</h2>
+    <ul>
+      <li><strong>Local-Only Storage:</strong> All application data—including local preferences, cached public discussion threads, and downloaded neural voice packages—resides exclusively on your device's internal storage (<code>context.filesDir</code> / <code>SharedPreferences</code>).</li>
+      <li><strong>Zero Remote Storage:</strong> We do not operate remote databases or cloud servers holding your personal data.</li>
+      <li><strong>User Data Deletion:</strong>
+        <ol>
+          <li><strong>Instant In-App / System Purge:</strong> You can delete all cached data, voice models, and preferences instantly by navigating to your Android device's <strong>Settings &rarr; Apps &rarr; ThreadReader &rarr; Storage &rarr; Clear Data</strong>.</li>
+          <li><strong>Uninstallation:</strong> Completely uninstalling the app permanently purges all associated local files and settings.</li>
+          <li><strong>Data Inquiries:</strong> To request assistance or verify data handling, contact us at <code>[YOUR_EMAIL_ADDRESS]</code>.</li>
+        </ol>
+      </li>
+    </ul>
+
+    <h2>6. Regulatory Disclosures</h2>
+    <h3>6.1 European Users (GDPR)</h3>
+    <p>Under the General Data Protection Regulation (GDPR), European Economic Area (EEA) and UK users have specific data protection rights:</p>
+    <ul>
+      <li><strong>Legal Basis for Processing:</strong> Processing of network requests for thread ingestion is based on legitimate interest in delivering user-requested content. Advertising identifiers (free tier only) are processed based on your freely given consent collected via the Google UMP consent banner.</li>
+      <li><strong>Your Rights:</strong> You have the right to access, rectify, port, object to processing, and erase your data. Because all application data resides locally on your device, clearing application storage or uninstalling the app executes complete data erasure.</li>
+    </ul>
+
+    <h3>6.2 California Users (CCPA / CPRA)</h3>
+    <p>Under the California Consumer Privacy Act as amended by the CPRA:</p>
+    <ul>
+      <li><strong>Categories of Data Collected:</strong> Identifiers (Android Advertising ID in free tier), internet/network activity (ad telemetry in free tier).</li>
+      <li><strong>No Sale of Personal Data:</strong> ThreadReader does not sell personal information for monetary consideration.</li>
+      <li><strong>Opt-Out Mechanism:</strong> You can opt out of personalized advertising by resetting or deleting your Advertising ID in Android Settings (<strong>Settings &rarr; Privacy / Google &rarr; Ads</strong>) or by upgrading to the Pro (Ad-Free) tier.</li>
+    </ul>
+
+    <h2>7. Children's Privacy (COPPA Compliance)</h2>
+    <p>ThreadReader is not directed toward children under the age of 13. The application does not knowingly collect, solicit, or maintain personal information from children under 13. Because the application ingests public internet discussion content, the application is rated for users aged 13 and older. If you believe a child under 13 has provided personal information to us, please contact us immediately at <code>[YOUR_EMAIL_ADDRESS]</code>, and we will take immediate steps to address the matter.</p>
+
+    <h2>8. Changes to This Privacy Policy</h2>
+    <p>We may update this Privacy Policy periodically. Any changes will be posted with an updated "Effective Date" at the top of this document and updated on the Google Play Store listing.</p>
+
+    <h2>9. Contact Us</h2>
+    <p>If you have questions, feedback, or data privacy requests concerning this Privacy Policy, please contact:</p>
+    <ul>
+      <li><strong>Developer:</strong> Redder Developer / ThreadReader Team</li>
+      <li><strong>Email:</strong> <code>[YOUR_EMAIL_ADDRESS]</code></li>
+      <li><strong>Repository &amp; Support:</strong> Via the Google Play developer contact page.</li>
+    </ul>
+
+    <footer>
+      <p>&copy; 2026 ThreadReader. All rights reserved.</p>
+    </footer>
+  </div>
+</body>
+</html>
